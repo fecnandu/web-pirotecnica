@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="burstGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#90CAF9"/>
+      <stop offset="100%" stop-color="#1976D2"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(256,256)" stroke-linecap="round">
+    <!-- circular arcs -->
+    <g fill="none" stroke="url(#burstGrad2)" stroke-width="10">
+      <path d="M-160 0 A160 160 0 0 1 160 0"/>
+      <path d="M-140 0 A140 140 0 0 1 140 0"/>
+      <path d="M-120 0 A120 120 0 0 1 120 0"/>
+    </g>
+    <!-- outward rays -->
+    <g stroke="#BBDEFB" stroke-width="6">
+      <line x1="0" y1="-150" x2="0" y2="-110"/>
+      <line x1="130" y1="-75" x2="95" y2="-55"/>
+      <line x1="130" y1="75" x2="95" y2="55"/>
+      <line x1="0" y1="150" x2="0" y2="110"/>
+      <line x1="-130" y1="75" x2="-95" y2="55"/>
+      <line x1="-130" y1="-75" x2="-95" y2="-55"/>
+    </g>
+    <circle r="8" fill="#E3F2FD"/>
+  </g>
+</svg>
